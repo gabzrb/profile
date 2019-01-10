@@ -1,80 +1,467 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Gabriel - My Profile Website</title>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css">
+    <!-- Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slide-style.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="style.css">
+     <link href="css/progressbar.css" type="text/css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
- <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Mali|Niramit|Spicy+Rice" rel="stylesheet">
+  </head>
+  <body>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/gab.png" width="200" height="100" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Work
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  <title> Gabriel Zerbib </title>
-</head>
-<body>
-  <div class=container>
-    <div class="mycard text-center">
-   <img src="images/Profile-picture.jpg" class= "profilepicture">
-<h1> Gabriel Zerbib </h1>
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#portfolio">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
 
- <h2> Fullstack Developper, Co-Founder @Timply </h2>
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div class="contents">
+                <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Gabriel J. Zerbib</h2>
 
-<a href="https://www.timply.co/" class="btn-red">Visit my website</a>
-
-
- <p> <strong>Entrepreneur with a huge curiousity about innovation and project who will shape the wold of tomorrow. Contact me to share any idea, advise, project who aim to change the world (or at least try). </strong> </p>
+                <div id="typed-strings">
+  <h2 class=" wow fadeInUp" id="p-banner" data-wow-delay="0.4s">FullStack Developer</h2>
+     <h3 class="script-font wow fadeInUp" data-wow-delay="0.6s">Make your ideas alive!</h3>
 </div>
+<span id="typed"></span>
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+     typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+  loopCount: Infinity,
+  });
+</script>
+
+                <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                  <li>
+                    <a class="linkedin" href="https://www.linkedin.com/in/gabriel-zerbib"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a class="github" href="https://github.com/gabzrb"><i class="fab fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/wagon.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+              <h3>Hi Guys!</h3>
+              <p>Passionate about innovation and new technologies and very curious. I have studied Business Management, Digital Strategy and Programing. My experience in enterprise sales, strategy deployment, and website development  results in an ability to collaborate in agile workflow,develop and design a project with focus oriented  on the customer’s experience. Always open to new ideas and motivated, I love to create and build innovative products that have a positive impact on people's lives while learning and developing my capacities.</p>
+              <div class="about-profile">
+                <ul class="admin-profile">
+                  <li><span class="pro-title"> Name </span> <span class="pro-detail">Gabriel Zerbib</span></li>
+                  <li><span class="pro-title"> Age </span> <span class="pro-detail">24 Years</span><li><span class="pro-title"> Country </span> <span class="pro-detail">Israel</span></li>
+                  <li><span class="pro-title"> Location </span> <span class="pro-detail">Tel-Aviv</span></li>
+                  <li><span class="pro-title"> e-mail </span> <span class="pro-detail">gabrielzerbib6@gmail.com</span></li>
+                  <li><span class="pro-title"> Phone </span> <span class="pro-detail">+33 6 10 73 73 38 </span></li>
+                  <li><span class="pro-title"> Skills </span> <span class="pro-detail">HTML, CSS, Bootstrap, ES6, SQL, GitHub,Heroku and Ruby on Rails</span></li>
+                </ul>
+              </div>
+              <a download="gabrielzerbib.pdf" href="assets/img/gabrielzerbib.pdf" target="_newtab" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+              <a href="mailto:gabrielzerbib6@gmail.com" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End --
 
 
- <ul class="list-inline">
-   <div class="social-card text-center">
+    <!-- Resume Section Start -->
+    <div id="resume" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-graduation"></i>
+                  <h2 class="timelin-title">Education</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Le Wagon FullStack Developer ( Tel-Aviv )</h3>
+                    <span>Oct 2018 - Dec 2018</span>
+                    <p class="line-text"><strong>Attended Le Wagon Tel-aviv (Batch #193)</strong></br>
+                      9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of 5 days.
+                      Lead developer of final project, implementing Uppy API to record and upload a user videos.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title"> Inseec Business School(Paris,France)</h3>
+                    <span>2015 - 2018</span>
+                    <p class="line-text"> <strong>Master of Business and Digital Strategy</strong></br>
+                    -Obtaining a Business and Digital Strategy Master.</br>
+                    - Learning different tools&strategy in order to attract and retain visitors on Website. </br>
+                    - Conduct and project management.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Progress (Paris, France)</h3>
+                    <span>2013-2015</span>
+                    <p class="line-text"><strong>Associate's Degree, International Business</strong></br>
+                     - Learning Business&Management theory, Economics, Geopolitics, and International Trade.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">Experience</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title"> Full Stack Developer & Business Development Director</h3>
+                     <span><h4 class="line-title">Timply (Paris,France) </h4></span>
+                    <span>2016 - Jan 2019</span>
+                    <p class="line-text">
+                    • Designed the mockups using Figma from a user point of view</br>
+                    • Developed the website using Ruby On Rails framework, HTML, CSS3, Bootstrap, and Javascript ES6.</br>
+                    • Wrote effective and scalable code in Ruby</br>
+                    • Built back-end components for web applications</br>
+                    • Tested applications for performance, responsiveness, and security</br>
+                    • Integrated data storage and data processing solutions</br>
+                    • Built, installed and shared gems and plugins
 
-  <li> <a href="https://www.facebook.com/gabriel.zerbib.5">
-    <i class="fab fa-facebook-square fa-7px"></i>
- </a>
-  </li>
- <li> <a href="https://www.linkedin.com/in/gabriel-zerbib/"><i class="fab fa-linkedin-in"></i>
- </a>
-  </li>
 
-  <li> <a href="https://twitter.com/GabZerbib?lang=en">
-<i class="fab fa-twitter-square"></i>
-  </a>
-  </li>
-  </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Digital Strategist& Junior Consultant</h3>
+                     <span><h4 class="line-title">The Ripples Group (Boston,MA)</h4></span>
+                    <span>Jun 2018 - Oct 2018</span>
+
+                    <p class="line-text">
+                   • Meeting with assigned clients and performing an initial assessment of the problematic situations</br>
+                   • Collecting information about the client’s business through a variety of methods (shadowing, interviews, conducting surveys, reading reports etc.)</br>
+                   • Present findings and suggestions to clients with ample justification and practical advice</br>
+                   • Implementing Digital Marketing Strategies using all necessary tools (e.g. website, emails, social media, and blogs)</br>
+                   • Researching products, services and current marketing strategies to identify new opportunities</br>
+                   • Analyzing web traffic metrics and suggest solutions to boost web presence</br>
+                   • Monitoring SEO/SEM, marketing and sales performance metrics to forecast trends</br>
+                   • Establishing best practices in Digital Marketing</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Digital Marketing Strategist</h3>
+                    <span><h4 class="line-title">365Scores (Tel-Aviv, Israel)</h4></span>
+                    <span>Jul 2017 - Sept 2017</span>
+                    <p class="line-text">
+                    • Implementing Digital Marketing Strategies for the French market using all necessary tools (Hootsuite, Facebook, CMS)</br>
+                    • Researching industry-related topics</br>
+                    • Promoting content on social networks and monitor engagement </br>
+                    • Coordinating with marketing and design teams to illustrate articles</br>
+                    • Conducting market research to optimize content</br>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Resume Section End -->
+
+<!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Works</h2>
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/grandmas.png" alt="" />
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="https://grandmapp-1.herokuapp.com/">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://grandmapp-1.herokuapp.com/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/pitchperfect.png" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="https://www.pitchperfect.xyz/">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://www.pitchperfect.xyz/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/timply.png"  height="198" alt="Timply" />
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="https://timply.herokuapp.com/">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://grandmapp-1.herokuapp.com/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
 
 
 
-  <div class="mycard text-center">
-  <h2>My favorite things </h2>
-  <table>
-      <tbody>
-        <tr>
-          <td>
-            <img src="images/psg.png" class="psg">
-          </td>
-          <td>
-            <h3>Psg</h3>
-            <p> Best club ever</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/Airmax.png" alt="Airmax" class="sneakers">
-          </td>
-          <td>
-            <h3>AirMax</h3>
-            <p>Best Shoes ever</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">
+      <div class="contact-form">
+        <div class="container">
+          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="contact-block">
+                <h2>Contact Form</h2>
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                     <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="submit-button">
+                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="footer-right-area wow fadeIn">
+                <h2>Contact Address</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>Tel-Aviv, Israel</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>gabrielzerbib6@gmail.com</a></p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#">+33 6 10 73 73 38</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
 
+    <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+               <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                  <li>
+                    <a class="linkedin" href="https://www.linkedin.com/in/gabriel-zerbib"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a class="github" href="https://github.com/gabzrb"><i class="fab fa-github"></i></a>
+                  </li>
+                </ul>
+              <p>Copyright © 2018 Gabriel Zerbib</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
 
-   </div>
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
 
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/progressbar.js"></script>
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+
+  </body>
 </html>
