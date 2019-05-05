@@ -1149,3 +1149,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   height: 8px;
 }
 
+
+.row {
+  justify-content: center;
+}
+
